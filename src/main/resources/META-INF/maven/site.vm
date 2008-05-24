@@ -40,7 +40,7 @@
   #if ( $alignedFileName == $currentItemHref )
     <a class="current" href="$currentItemHref">$item.name</a>
   #else
-    <a href="currentItemHref">$item.name</a>
+    <a href="$currentItemHref">$item.name</a>
   #end
 #end
 
