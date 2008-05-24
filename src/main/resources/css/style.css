@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc4bd;
+  font-family: verdana, arial, helvetica, sans-serif
+}
+
+#banner {
+  margin-left: 10em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  background-color: #e6af7f;
+  padding: 2px;
+  padding-left: 0.5em;
+  font-weight: bold;
+  color: #924400;
+  border-left: 0.2em solid #d69054;
+  border-top: 0.2em solid #d69054;
+  clear: both
+}
+
+#bannerLeft {
+  float: left;
+  font-size: 1.25em
+}
+
+#bannerRight {
+  float: right
+}
+
+.clear {
+  clear: both;
+  height: 0
+}
+
+.logo img {
+  display: inline;
+  border: 0
+}
+
+#navbar {
+  position: relative;
+  left: -9.5em;
+  top: 1em;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  width: 9em
+}
+
+#navbar a {
+  font-family: Verdana;
+  display: block;
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  background-color: #ffa862;
+  border-right: 0.4em solid #cc864e;
+  text-decoration: none;
+  font-weight: bold;
+  color: white
+}
+
+#navbar a.current {
+  background-color: #6297ff;
+  border-style: solid;
+  border-left-width: 0.1em;
+  border-top-width: 0.1em;
+  border-bottom-width: 0.1em;
+  padding: 0.2em;
+  border-color: #4f79cc
+}
+
+#page {
+  margin-left: 8em;
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  background-color: #e6eeff;
+  padding-left: 2em;
+  padding-bottom: 2em
+}
+
+#content {
+  padding: 0.5em;
+  padding-bottom: 1em;
+  border-left: 0.2em solid #a3bbe9;
+  border-bottom: 0.2em solid #a3bbe9
+}
+
+#content h1 {
+  font-weight: bold;
+  font-size: 1.2em
+}
+
+#content h2 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 1em
+}
+
+#content p {
+  margin-left: 1em
+}
+
+.codeblock {
+  background-color: white;
+  padding: 0.5em;
+  border: 2px solid black;
+  margin-left: 1em;
+  font-family: Courier, 'Courier New', Monospace
+}
+
+.indent0 {
+  padding-left: 6ex;
+  text-indent: -6ex
+}
+
+.indent1 {
+  padding-left: 12ex;
+  text-indent: -6ex;
+  background-repeat: no-repeat;
+  background-image: url(cont.gif);
+  background-position: 6ex 1.5em
+}
+
+table {
+  margin-left: 1em;
+  border: 0.2em solid #a3bbe9;
+  border-collapse: collapse
+}
+
+tr {
+  margin: 0
+}
+
+th {
+  padding: 0.4em;
+  text-align: left;
+  background-color: #a3bbe9;
+  color: white;
+  margin: 0
+}
+
+td {
+  padding: 0.4em;
+  vertical-align: baseline
+}
+
+.filename {
+  font-weight: bold
+/*  font-family: Courier, 'Courier New', Monospace; */
+}
+
+.literal {
+  font-family: Courier, 'Courier New', Monospace
+}
+
+.java {
+  font-family: Courier, 'Courier New', Monospace;
+  font-weight: bold
+}
